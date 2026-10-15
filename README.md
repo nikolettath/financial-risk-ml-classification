@@ -10,3 +10,8 @@ This repository contains a Machine Learning project focused on predicting custom
 * **Exploratory Data Analysis (EDA):** Class distribution and correlation analysis using Seaborn & Matplotlib.
 * **Dimensionality Reduction:** Principal Component Analysis (PCA) via Singular Value Decomposition (SVD).
 * **Classification Algorithms:** Comparison across multiple models (including Logistic Regression, SVM, KNN, MLP, Naive Bayes, etc.).
+
+### Conclusion & Key Findings
+* **Optimal Models:** Logistic Regression and SVM achieved the highest test accuracy (59.30%), proving that the financial dataset features are predominantly linearly separable.
+* **Model Complexity vs. Performance:** Complex models like the Multilayer Perceptron (MLP) did not outperform simpler linear methods, while K-Nearest Neighbors (KNN) suffered from overfitting due to noise and sensitivity to outliers.
+* **Takeaway:** For this specific financial risk assessment task, simpler linear models provide the best balance of maximum accuracy and minimal computational complexity.
